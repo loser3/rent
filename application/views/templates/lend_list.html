@@ -1,0 +1,13 @@
+{include file="header.html" _css="page" _js="page"}
+<form action="/rent/index.php/lend_list/regist" method="post" enctype="multipart/form-data">
+    <input type="file" name="userfile" accept="image/*;capture=camera" />
+    <label for="entry_name">品物</label>
+    <input id="entry_name" name="entry_name" type="text"  data-clear-btn="true" data-clear-btn-text="クリア" />
+    <label for="entry_keywd">検索キーワード：</label>
+    <input id="entry_keywd" name="entry_keywd" type="search" />
+    
+    <button class="ui-btn">登録</button>
+    <a href="index.html" class="ui-btn">登録</a>
+    
+</form>
+{include file="footer.html"}
